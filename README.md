@@ -1,4 +1,4 @@
-部署：
+# 部署：
 1、创建 Gemini-Nav-Extension 文件夹，将三个文件装入文件夹。
 2、打开 Chrome 浏览器，在地址栏输入并访问 chrome://extensions/。
 3、在页面的右上角，找到并打开 “开发者模式” (Developer mode) 的开关。
