@@ -1,0 +1,52 @@
+/* 右侧悬浮面板主容器 */
+#gemini-nav-sidebar {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 220px;
+  max-height: 70vh;
+  background: #f8f9fa;
+  border: 1px solid #dadce0;
+  border-radius: 12px;
+  z-index: 9999; /* 确保它在最上层 */
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 12px;
+  font-family: sans-serif;
+}
+
+/* 底部按钮 */
+#gemini-nav-bottom-btn {
+  width: 100%;
+  padding: 10px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+#gemini-nav-bottom-btn:hover {
+  background: #1557b0;
+}
+
+/* 导航条目 */
+.gemini-nav-item {
+  padding: 8px;
+  margin-bottom: 6px;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #3c4043;
+  /* 文本溢出省略号处理 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #eeeeee;
+}
+.gemini-nav-item:hover {
+  background: #e8f0fe;
+  border-color: #d2e3fc;
+}

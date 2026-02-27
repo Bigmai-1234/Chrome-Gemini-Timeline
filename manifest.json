@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini 长对话导航助手",
+  "version": "1.0",
+  "description": "提取用户提问生成右侧大纲，点击即可快速回溯。",
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
